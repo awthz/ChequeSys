@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChequeSYs", "ChequeSYs.csproj", "{16114E27-88AB-436C-979E-AEE6C294A616}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16114E27-88AB-436C-979E-AEE6C294A616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16114E27-88AB-436C-979E-AEE6C294A616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16114E27-88AB-436C-979E-AEE6C294A616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16114E27-88AB-436C-979E-AEE6C294A616}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E53FE65-3E3B-42A4-89A5-FE938A47A6C3}
+	EndGlobalSection
+EndGlobal
