@@ -39,13 +39,13 @@ namespace ChequeSYs.Models
         {
             
 
-            var beforeFloatingPoint = (int)Math.Floor(doubleNumber);
-            var beforeFloatingPointWord = $"{ConvertNumber(beforeFloatingPoint)} dollars";
-            var afterFloatingPointWord = $"{SmallNumberToWord((int)((doubleNumber - beforeFloatingPoint) * 100), "")} cents";
-            return $"{beforeFloatingPointWord} and {afterFloatingPointWord}";
+            var b4Float = (int)Math.Floor(doubleNumber);
+            var b4FloatWrd = $"{ConvertNumber(b4Float)} dollars";
+            var aftrFloatWrd = $"{DecimalNumber((int)((doubleNumber - b4Float) * 100), "")} cents";
+            return $"{b4FloatWrd} and {aftrFloatWrd}";
         }
 
-        private static string SmallNumberToWord(int number, string words)
+        private static string DecimalNumber(int number, string words)
         {
             if (number <= 0) return words;
             if (words != "")
